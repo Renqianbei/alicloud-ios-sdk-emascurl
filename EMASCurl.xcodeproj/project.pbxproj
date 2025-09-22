@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17E9CBD14367842DD524FFF0 /* libcurl-HTTP2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7550AA13D3ADD72163B2F6 /* libcurl-HTTP2.xcframework */; };
 		5C5481264CFFDBFD5CB59195 /* Pods_EMASCurlDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226913C558EE701DCE6DCA3F /* Pods_EMASCurlDemo.framework */; };
 		6F3F5FED2CD0DB520014025B /* EMASCurl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3F5FDA2CD0DB200014025B /* EMASCurl.framework */; };
 		6F3F60232CD0E07F0014025B /* EMASCurl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F3F601F2CD0E07F0014025B /* EMASCurl.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,7 +57,6 @@
 		94F806A02E52C26100B6FE7A /* EMASLocalHttpProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F8069F2E52C26100B6FE7A /* EMASLocalHttpProxy.m */; };
 		94F806A12E52C26100B6FE7A /* EMASLocalHttpProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 94F8069E2E52C26100B6FE7A /* EMASLocalHttpProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94F806C22E53141100B6FE7A /* LocalProxyDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F806C12E53141100B6FE7A /* LocalProxyDemoController.m */; };
-		9ED156F40066301702A9AC72 /* libcurl-HTTP2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7550AA13D3ADD72163B2F6 /* libcurl-HTTP2.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,7 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ED156F40066301702A9AC72 /* libcurl-HTTP2.xcframework in Frameworks */,
+				17E9CBD14367842DD524FFF0 /* libcurl-HTTP2.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,8 +517,6 @@
 			dependencies = (
 			);
 			name = EMASLocalProxy;
-			packageProductDependencies = (
-			);
 			productName = EMASLocalProxy;
 			productReference = 94F806862E52B6E300B6FE7A /* EMASLocalProxy.framework */;
 			productType = "com.apple.product-type.framework";

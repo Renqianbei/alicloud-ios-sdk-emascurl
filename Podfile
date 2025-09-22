@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/aliyun/aliyun-specs.git'
+source 'git@github.com:aliyun/aliyun-specs.git'
 
 platform :ios, '12.0'
 
